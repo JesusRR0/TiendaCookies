@@ -26,35 +26,12 @@
 
                 echo "Nombre: ".$productoF['nombre'];
         ?>
-                
                 <img width="100" src="data:image/png;base64,<?php echo base64_encode($productoF['imagen']); ?>"></img>
-
         <?php
+                echo "<br>"."Descripcion: ".$productoF['descripcion']."<br>";
                 echo "<br>";
-                
-                echo "Descripcion: ".$productoF['descripcion']."<br>";
-                
-                
-                                        
-                //     if($result->num_rows > 0){
-                       
-                //         //Render image
-                //         header("Content-type: image/jpg"); 
-                //         echo $imgData['image']; 
-
-                    
-                //    }
-                
-                echo "<br>";
-             }
-            
-
-             
-
-            
-
+            }
         ?>
-    <img alt="">
     </div>
     
 </body>
