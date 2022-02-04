@@ -6,8 +6,8 @@ USE peluche;
 
 CREATE TABLE producto(
     cod INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(200) NOT NULL,
-    descripcion VARCHAR(200) NOT NULL,
+    nombre VARCHAR(1000) NOT NULL,
+    descripcion VARCHAR(1000) NOT NULL,
     precio DECIMAL(10,2) NOT NULL,
     imagen LONGBLOB NULL
 );
