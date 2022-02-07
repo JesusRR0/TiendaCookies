@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.tituloP{
+    background-color:#93E1D8 ;
+    font-size: 2vw;
+
+    font-weight: bold;
+    text-align: center;
+}
+html{
+    background-color: #93E1D8;
+    font-family: 'Overpass', sans-serif;
+}
+h1,h2{
+    text-align: center;
+    background-color: #FFA69E;
+}
+.container{
+    float:left;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:70vw ; 
+    
+}
+.precio{
+    text-align: center;
+    padding:1vw;
+    font-weight: bold;
+}
+.nombre{
+    text-align: center;
+    font-size:1.1vw;
+    font-weight: bold;
+    padding:1vw;
+}
+img{
+    margin:auto;
+    width: 150px;
+    height: 150px; 
+    padding:0.5vw;   
+}
+.producto{
+    background-color: white;
+    border:1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:20vw;
+    margin-top:5vw;
+    margin-left:10vw;
+    margin-bottom:1vw;
+}
+.desc p{
+    padding:1vw; 
+    text-align: justify;  
+}
+input[type="submit"]{
+    width:7vw;
+    height:3vw;
+    margin-bottom:2vw;
+    margin-left:6vw;
+    background-color:#AA4465;
+    color:#462255;
+    border: 1px solid black;
+    border-radius:10px;
+}
+
+.carrito{
+    float:left;
+    width:29.3vw;
+    height:73vw;
+    background-color: #D57582;
+    
+}
+.carritoTitulo{
+    padding:1vw;
+    font-size:1.5vw;
+    font-weight: bold;
+}
+
+.carritoP{
+    font-weight: bold;
+    padding:1vw;
+}
+.carritoPrecio{
+    padding-left:1vw;
+    padding-bottom:1vw;
+    float:left;
+}
+#eliminar{
+    width:4vw;
+    height:1vw;
+    background-color: #DDFFF7;
+    margin:0vw;
+    margin-left:2vw;
+    margin-bottom:1vw;
+    
+}
+.sp1,.sp2,.sp3,.sp4{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
